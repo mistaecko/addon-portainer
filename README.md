@@ -17,9 +17,9 @@
 [![Discord][discord-shield]][discord]
 [![Community Forum][forum-shield]][forum]
 
-[![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
+[![Sponsor Frenck via GitHub Sponsors][github-sponsors-shield]][github-sponsors]
 
-[![Support my work on Patreon][patreon-shield]][patreon]
+[![Support Frenck on Patreon][patreon-shield]][patreon]
 
 Manage your Docker environment with ease.
 
@@ -49,14 +49,10 @@ compared to installing any other Hass.io add-on.
 To be able to use this add-on, you'll need to disable protection mode on this
 add-on. Without it, the add-on is unable to access Docker.
 
-1. [Add our Hass.io add-ons repository][repository] to your Hass.io instance.
-1. Install the "Portainer" add-on.
+1. Search for the "Portainer" add-on in the Hass.io add-on store and install it.
 1. Set the "Protection mode" switch to off.
 1. Start the "Portainer" add-on.
 1. Check the logs of the "Portainer" add-on to see if everything went well.
-
-**NOTE**: Do not add this repository to Hass.io, please use:
-`https://github.com/hassio-addons/repository`.
 
 ## Configuration
 
@@ -185,7 +181,7 @@ our [GitHub Repository][repository].
 
 MIT License
 
-Copyright (c) 2018-2019 Franck Nijhof
+Copyright (c) 2018-2020 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -209,8 +205,6 @@ SOFTWARE.
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
-[buymeacoffee]: https://www.buymeacoffee.com/frenck
 [commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/addon-portainer.svg
 [commits]: https://github.com/hassio-addons/addon-portainer/commits/master
 [contributors]: https://github.com/hassio-addons/addon-portainer/graphs/contributors
@@ -221,6 +215,8 @@ SOFTWARE.
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/community-hass-io-add-on-portainer/68836?u=frenck
 [frenck]: https://github.com/frenck
+[github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
+[github-sponsors]: https://github.com/sponsors/frenck
 [gitlabci-shield]: https://gitlab.com/hassio-addons/addon-portainer/badges/master/pipeline.svg
 [gitlabci]: https://gitlab.com/hassio-addons/addon-portainer/pipelines
 [home-assistant]: https://home-assistant.io
@@ -228,9 +224,8 @@ SOFTWARE.
 [issue]: https://github.com/hassio-addons/addon-portainer/issues
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-portainer.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
-[microbadger]: https://microbadger.com/images/hassioaddons/portainer
-[patreon-shield]: https://www.frenck.nl/images/patreon.png
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
+[patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
 [reddit]: https://reddit.com/r/homeassistant
